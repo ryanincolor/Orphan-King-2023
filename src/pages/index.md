@@ -2,7 +2,7 @@
 templateKey: index-page
 title: "F A D E "
 image: /img/1.jpg
-heading: Orphan King
+heading: "F A D E "
 subheading: OUT APRIL 20TH
 mainpitch:
   title: Why Kaldi
