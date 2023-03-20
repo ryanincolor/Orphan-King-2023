@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: "F A D E "
-image: /img/1.jpg
+image: /img/screenshot-2023-03-09-at-19.28.50.png
 heading: "F A D E "
 subheading: OUT APRIL 20TH
 mainpitch:
