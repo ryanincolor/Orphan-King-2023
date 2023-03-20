@@ -79,12 +79,13 @@ export default function FullWidthImage(props) {
             )}
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                className=" subheader has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
                   marginTop: "0.5rem",
+                  
                 }}
               >
                 {subheading}
