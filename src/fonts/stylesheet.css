@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'FF Mark Pro';
+    src: url('FFMarkPro-Heavy.woff2') format('woff2'),
+        url('FFMarkPro-Heavy.woff') format('woff'),
+        url('FFMarkPro-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Mark Pro';
+    src: url('FFMarkPro-Hairline.woff2') format('woff2'),
+        url('FFMarkPro-Hairline.woff') format('woff'),
+        url('FFMarkPro-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Mark Pro';
+    src: url('FFMarkPro-Book.woff2') format('woff2'),
+        url('FFMarkPro-Book.woff') format('woff'),
+        url('FFMarkPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Mark Pro';
+    src: url('FFMarkPro-Black.woff2') format('woff2'),
+        url('FFMarkPro-Black.woff') format('woff'),
+        url('FFMarkPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Mark Pro';
+    src: url('FFMarkPro-Bold.woff2') format('woff2'),
+        url('FFMarkPro-Bold.woff') format('woff'),
+        url('FFMarkPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
