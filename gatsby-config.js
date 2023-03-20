@@ -5,6 +5,7 @@ module.exports = {
       "Electronic Music Producer & Film Maker",
   },
   plugins: [
+    
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",
@@ -20,6 +21,13 @@ module.exports = {
       options: {
         path: `${__dirname}/static/img`,
         name: "uploads",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: process.env.GA_TRACKING_ID
       },
     },
     {
@@ -78,3 +86,8 @@ module.exports = {
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
+
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
