@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Orphan King
+title: "F A D E "
 image: /img/1.jpg
 heading: Orphan King
-subheading: FADE - APRIL 2022
+subheading: OUT APRIL 20TH
 mainpitch:
   title: Why Kaldi
   description: >
