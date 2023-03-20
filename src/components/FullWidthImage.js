@@ -36,7 +36,7 @@ export default function FullWidthImage(props) {
           />
         ) : (
           <GatsbyImage
-            className= "boooogerfadsfasdfa"
+            className="hero-container"
             image={img}
             objectFit={"cover"}
             objectPosition={imgPosition}
@@ -67,7 +67,7 @@ export default function FullWidthImage(props) {
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                className="has-text-weight-bold headline"
                 style={{
                   color: "white",
                   lineHeight: "1",

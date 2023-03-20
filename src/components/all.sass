@@ -21,14 +21,42 @@ html, body
   font-family: 'FF Mark Pro' !important 
 
 .main
-  margin: 40px 40px 40px 40px
+  margin: 0px 40px 0px 40px
+  @media (max-width: 1025px) 
+    margin: 0px 20px 0px 20px
 
 .navbar .navbar-menu
   box-shadow: none !important
 
 
 .navbar
+  padding:8px 0
+  display: flex
   background: none !important
+
+  .container:not(.is-max-desktop):not(.is-max-widescreen) 
+    margin: 0px 48px 0px 52px !important
+    max-width: 100% !important
+    @media (max-width: 1025px) 
+      margin: 0px 24px 0px 16px !important
+    .navbar-menu
+      justify-content: flex-end
+     
+  a.navbar-item
+    color: white !important
+
+  a.navbar-item:hover
+    color: grey !important
+    background: none
+
+  @media screen and (max-width: 1023px)
+    .navbar-menu 
+      background-color: black
+      box-shadow: 0 8px 16px rgba(43, 37, 35, 0.1)
+      padding: 0.5rem 0
+   
+
+    
 
 .content .taglist
   list-style: none
@@ -46,16 +74,22 @@ html, body
     margin-top: 0
 
 // Helper Classes
-.boooogerfadsfasdfa
+.hero-container
   position: relative
-  height: calc(100vh - 140px)
+  height: calc(100vh - 160px)
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
+  
 
 .full-width-image
-  width: 20px    
+  width: 20px  
+
+.headline 
+  font-size: 6rem
+  @media (max-width: 1025px) 
+    font-size: 3.5rem
 
 .btn
     display: inline-block
@@ -77,27 +111,57 @@ html, body
 .margin-top-0
   margin-top: 0 !important
 
-.navbar-item .icon
-  color: $primary
-// Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
-.navbar-brand .navbar-item.logo
-  padding: 0 1rem
+
+.navbar-brand 
+  .navbar-item
+    scale: 1.25
+    transform: rotate(360deg)
+    -webkit-animation: rotating 10s linear infinite
+    -moz-animation: rotating 10s linear infinite
+    -ms-animation: rotating 10s linear infinite
+    -o-animation: rotating 10s linear infinite
+    animation: rotating 10s linear infinite  
+    img
+      height: 56px !important
+      width: 56px !important
+  .navbar-item.logo
+    padding: 0 1rem
+
+@keyframes rotating 
+  from 
+    -ms-transform: rotate(0deg)
+    -moz-transform: rotate(0deg)
+    -webkit-transform: rotate(0deg)
+    -o-transform: rotate(0deg)
+    transform: rotate(0deg)
+  to 
+    -ms-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -webkit-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    
 footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
+  height: 48px
+  padding: 0
+  margin-bottom: 16px
+  background: none !important
+  .menu
+    font-size: 13px
+  .menu-list a:hover
+    background: none 
+    color: white
+
 
 //Menu overrides
-$menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
+
+.navbar-burger 
+  color: white !important
+  scale: 1.2
 
 
 .menu-label
@@ -106,6 +170,17 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
+  display: flex
+  justify-content: center
+  margin-left: 0px
+  .navbar-item
+    display: flex
+
+.content ul.menu-list
+  margin-right: 2rem !important
+    
+
+ 
 .social
   padding: 2em
 .social a
@@ -144,3 +219,7 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+
+
+
+ 
