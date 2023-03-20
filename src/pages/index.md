@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Orphan King
-image: /img/home-jumbotron.jpg
+image: /img/1.jpg
 heading: Orphan King
 subheading: FADE - APRIL 2022
 mainpitch:
