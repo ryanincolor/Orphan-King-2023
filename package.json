@@ -8,6 +8,7 @@
     "dotenv": "^16.0.3",
     "gatsby": "^4.0.0",
     "gatsby-plugin-google-analytics": "^4.0.0",
+    "gatsby-plugin-google-gtag": "4.0",
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-netlify": "^5.0.0",
     "gatsby-plugin-netlify-cms": "^6.0.0",
