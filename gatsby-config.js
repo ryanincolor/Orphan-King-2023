@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        npm install dotenv
+        trackingId: process.env.GA_TRACKING_ID
       },
     },
     {
