@@ -41,7 +41,7 @@ const Navbar = () => {
             <li className="navbar-item" style={{padding: "0px"}}>
             <a
               className="navbar-item"
-              href="https://music.orphanking.com/bellow"
+              href="https://music.orphanking.com/streaming-sites"
               target="_blank"
               rel="noopener noreferrer"
             >Music
